@@ -1,0 +1,13 @@
+  {
+
+       "validEmail" : "chithraicaltech@gmail.com",
+       "validPassword" : "Test1997*", 
+       "Title1"  : " Valid Email Address",
+      
+      
+
+        "invalidEmail" : "testbh97@gmail.com",
+        "inValidPassword" : "test***",
+         "Title2"  : " Invalid Email Address"
+       
+       }

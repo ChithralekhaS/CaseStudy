@@ -4,7 +4,7 @@ import {Login} from '../POM/login'
 var data = JSON.parse(JSON.stringify(require('../Utils/SignUp.json')))
 var dataSet = JSON.parse(JSON.stringify(require('../Utils/login.json')))
 
-test.skip('Sign Up', async ({page})=>{
+test.skip('Sign Up', async ({page, browser})=>{
 
     var singUp = new Login(page)
     await singUp.navigateTo()

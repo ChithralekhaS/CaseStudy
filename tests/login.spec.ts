@@ -17,7 +17,7 @@ test.skip('Sign Up', async ({page})=>{
     await singUp.email.fill(data.Email)
     await singUp.phone.fill(data.PhoneNumber)
     await singUp.password.fill(data.Password)
-    await singUp.agreement.check({force :true});
+    await singUp.agreement.check({force :true})
     await singUp.confirmSignUp.click()
     await page.waitForTimeout(3000)
     const errorMessage = await singUp.validationMessage.isVisible();
